@@ -19,15 +19,16 @@ This project investigates the causal relationship between maternal smoking durin
 - **Durbin-Wu-Hausman Test**: Ensures the validity of the IV model by comparing OLS and 2SLS estimates.
 
 ## Results
+
 ### First-stage Regression Results (Table 3)
-| Variable | Coef.     | Std. Err. | t      | P>|t| | [95% Conf. Interval] |
-|----------|-----------|-----------|--------|-----|-----------------------|
-| dmeduc   | -0.57109  | 0.005047  | -113.17| 0.000| -0.58099  -0.5612     |
+| Variable | Coef.    | Std. Err. | t       | P>|t| | [95% Conf. Interval] |
+|----------|----------|-----------|---------|-----|-----------------------|
+| dmeduc   | -0.57109 | 0.005047  | -113.17 | 0.000 | -0.58099  -0.5612     |
 
 ### Second-stage Regression Results (Table 4)
-| Variable | Coef.     | Std. Err. | t      | P>|t| | [95% Conf. Interval] |
-|----------|-----------|-----------|--------|-----|-----------------------|
-| Cigar    | -32.87212 | 0.897010  | -36.65 | 0.000| -34.63023  -31.11402  |
+| Variable | Coef.      | Std. Err. | t      | P>|t| | [95% Conf. Interval] |
+|----------|------------|-----------|--------|-----|-----------------------|
+| Cigar    | -32.87212  | 0.897010  | -36.65 | 0.000 | -34.63023  -31.11402  |
 
 ## Figures 
 ### 1. Data Description (Table 1)
